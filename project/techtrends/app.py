@@ -118,4 +118,4 @@ if __name__ == "__main__":
         handlers=[
             stdout_handler, stderr_handler,
         ])
-    app.run(host='0.0.0.0', port='3111')
+    app.run(host='0.0.0.0', port='3111',debug=True)
